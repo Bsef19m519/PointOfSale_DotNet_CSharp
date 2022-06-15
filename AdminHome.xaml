@@ -1,0 +1,19 @@
+﻿<Window x:Class="PointOfSale.AdminHome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PointOfSale"
+        mc:Ignorable="d"
+        Title="Admin Side" Height="768" Width="1366" ResizeMode="CanMinimize" WindowState="Maximized">
+    <Grid>
+        <Label Content="Admin Side (POS System)" VerticalAlignment="Top" FontSize="48" Padding="380,5,5,5" Background="#FF484848" Foreground="#FFF3EF9C" FontFamily="Showcard Gothic"/>
+
+
+        <Button x:Name="createAccount" Content="Create Account" FontSize="22" FontFamily="Arial Black" Background="#FF484848" Foreground="#FFF3EF9C" HorizontalAlignment="Left" Height="50" Margin="420,250,0,0" VerticalAlignment="Top" Width="438"  Click="createAccount_Click"/>
+        <Button x:Name="searchAccount" Content="Search Account" FontSize="22" FontFamily="Arial Black" Background="#FF484848" Foreground="#FFF3EF9C" HorizontalAlignment="Left" Height="50" Margin="420,310,0,0" VerticalAlignment="Top" Width="438"/>
+        <Button x:Name="deleteAccount" Content="Delete Account" FontSize="22" FontFamily="Arial Black" Background="#FF484848" Foreground="#FFF3EF9C" HorizontalAlignment="Left" Height="50" Margin="420,370,0,0" VerticalAlignment="Top" Width="438"/>
+        <Button x:Name="updateAccount" Content="Update Account" FontSize="22" FontFamily="Arial Black" Background="#FF484848" Foreground="#FFF3EF9C" HorizontalAlignment="Left" Height="50" Margin="420,430,0,0" VerticalAlignment="Top" Width="438"/>
+        <Button x:Name="logout" Content="Logout" FontSize="22" FontFamily="Arial Black" Background="#FF484848" Foreground="#FFF3EF9C" Click="logout_Click" HorizontalAlignment="Right" Height="50" Margin="0,80,10,0" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+</Window>
